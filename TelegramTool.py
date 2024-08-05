@@ -271,11 +271,11 @@ def main():
         system("clear")
         banner()
         menu()
-        op = input(bcolors.OKGREEN+"\nMENÜ :> "+bcolors.ENDC)
+        op = input(bcolors.OKGREEN+"\nMENU :> "+bcolors.ENDC)
         if str(op) == "1":
             maker = AccountMaker(token=c_token, country=c_country, operator=c_operator,
                                  product=c_product, api_id=c_api_id, api_hash=c_ap_hash)
-            system("cls")
+            system("clear")
             banner()
             maker.create_account()
         elif str(op) =="2":
