@@ -268,7 +268,7 @@ def menu():
 
 def main():
     try:
-        system("cls")
+        system("clear")
         banner()
         menu()
         op = input(bcolors.OKGREEN+"\nMENÜ :> "+bcolors.ENDC)
@@ -294,7 +294,7 @@ def main():
 
 if __name__ == "__main__":
     try:
-        system("cls")
+        system("clear")
         banner()
         main()
     except KeyboardInterrupt:
